@@ -1,0 +1,154 @@
+################################################################
+# This workflow will not work correctly on Private Repos!!!!   #
+# This is due to the permissions being set at the organization #
+# level will only work on public repos for free organizations  #
+################################################################
+#
+# This workflow manually runs to initialise the repo after it has been
+# created from the template.  It is expected that the repo name is of the 
+# form "DCS-aaaaa-Profile-by-nnnnn" because this provides the author's name and
+# also the aircraft.  The Minimum Helios release needs to be set manually in the 
+# env: section of this workflow.
+#
+# NOTE:  This workflow requires the "workflows" permission to run because it changes
+#        a workflow file.
+#        To get this permission, go into your account settings (top right-hand corner
+#        and select Settings.  On the left hand side select "Developer settings" -> 
+#        Personal Access Tokens and create one with "WorkFlow" ticked.  Copy the token
+#        Next go into the settings for the organisation, and select "Secrets and variables"
+#        Create a new seecret called "WORKFLOW_TOKEN" with a value of the copied PAT.
+#        Although the permission is needed for the commit at the end of the job, it seems that
+#        the critical step to have access to the WORKFLOW_TOKEN is the checkout for some reason.
+#
+name: InitRepo
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      _vehicle:
+        description: "Vehicle Name of Aircraft"
+        default: ""
+        type: "string"
+      _aircraft:
+        description: "Common name of the Aircraft"
+        default: ""
+        type: "string"
+      _minheliosrelease:
+        description: "Minimum Helios Release Needed for Profile to run"
+        default: "1.6.6140.0000"
+        type: "string"
+      _author:
+        description: "Profile Author"
+        default: ""
+        type: "string"
+env:
+  GITHUB_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+  VEHICLE: ${{inputs._vehicle}}
+  VEHICLECOMMONNAME: ${{inputs._aircraft}}
+  MINHELIOSRELEASE: ${{inputs._minheliosrelease}}
+  PROFILENAME: ${{inputs._aircraft}}_${{inputs._author}}
+  AUTHOR: ${{inputs._author}}
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: write
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - name: boiler plate
+        run: |
+          echo "################################################################"
+          echo "# This workflow will not work correctly on Private Repos!!!!   #"
+          echo "# This is due to the permissions being set at the organization #"
+          echo "# level which only work on public repos for free organizations #"
+          echo "################################################################"
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}
+          fetch-depth: '0'
+      - name: Set outputs
+        id: vars
+        run: |
+          # Set main variables from the repo name
+          echo "repoName=${{ github.event.repository.name }}" >> $GITHUB_ENV
+          if [[ "${{ github.event.repository.name }}" =~ ^DCS\-(.*)-Profile-by-(.*) ]]; then
+          echo "VEHICLE=${BASH_REMATCH[1]}" >> $GITHUB_ENV
+          VEHICLE=${BASH_REMATCH[1]}
+          VEHICLECOMMONNAME=${BASH_REMATCH[1]}
+          echo "VEHICLECOMMONNAME=${BASH_REMATCH[1]}" >> $GITHUB_ENV
+          echo "AUTHOR=${BASH_REMATCH[2]}" >> $GITHUB_ENV
+          AUTHOR=${BASH_REMATCH[2]}
+          echo "PROFILENAME=${BASH_REMATCH[1]}_${BASH_REMATCH[2]}" >> $GITHUB_ENV
+          PROFILENAME="${{ env.VEHICLE }}_$AUTHOR"
+          else
+          echo "*** ERROR Repository name \"${{ github.event.repository.name }}\" is not the correct format for this workflow."
+          echo "*** ACTION Change the Repo name to be in the format \"DCS-aircraft-Profile-by-author\""
+          echo "eg \"DCS-$VEHICLE-Profile-by-$AUTHOR\""
+          gh run cancel ${{ github.run_id }}
+          gh run watch ${{ github.run_id }}
+          fi
+          echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+          echo "date=$(date +'%d-%b-%Y')" >> $GITHUB_OUTPUT
+          echo "actor=${GITHUB_ACTOR}" >> $GITHUB_OUTPUT
+          echo "${{ env.VEHICLE }} $AUTHOR"
+      - name: Substitute Variables inside Workflows
+        id: Workflows
+        run: |
+          sed -i -- 's#_minheliosrelease#${{ env.MINHELIOSRELEASE}}#g' './.github/workflows/BuildProfilePackage.yml'
+          sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './.github/workflows/BuildProfilePackage.yml'
+          sed -i -- 's#_vehicle#${{ env.VEHICLE }}#g' './.github/workflows/BuildProfilePackage.yml'
+          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './.github/workflows/BuildProfilePackage.yml'         
+          #
+      - name: Substitute Variables inside files
+        id: files
+        run: |
+          # substitutions for specific files
+          sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './README.md'
+          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './README.md'
+          #
+          # sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './Profile16.json'
+          # sed -i -- 's#_author#${{ env.AUTHOR }}#g' './Profile16.json'
+          # sed -i -- 's#_MinimumReleaseLevel#${{ env.MINHELIOSRELEASE }}#g' './Profile16.json'
+          #
+          # sed -i -- 's#_minheliosrelease#${{ env.MINHELIOSRELEASE }}#g' './Profile16.json'
+          #
+          sed -i -- 's#_aircraft#${{ env.VEHICLE }}#g' './_aircraft - About this profile.md'
+          sed -i -- 's#_author#${{ env.AUTHOR }}#g' './_aircraft - About this profile.md'
+          #
+      - name: Rename Directories and Files
+        id: renameDirs
+        run: |
+          # rename files and directories
+          find . -name "*_aircraft*" -depth -exec bash -c '
+          for filename do
+          basename=${filename##*/}
+          mv "$filename" "${filename%/*}/${basename//_aircraft/${{ env.VEHICLE }}}"
+          done
+          ' _ {} +
+          find . -name "*_author*" -depth -exec bash -c '
+          for filename do
+          basename=${filename##*/}
+          mv "$filename" "${filename%/*}/${basename//_author/${{ env.AUTHOR }}}"
+          done
+          ' _ {} +
+          find . -name "*_vehicle*" -depth -exec bash -c '
+          for filename do
+          basename=${filename##*/}
+          mv "$filename" "${filename%/*}/${basename//_vehicle/${{ env.VEHICLE }}}"
+          done
+          ' _ {} +
+          ls -r
+      - uses: EndBug/add-and-commit@v9
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          message: Initialise the Repository
+          committer_name: GitHub Actions
+          committer_email: actions@github.com
