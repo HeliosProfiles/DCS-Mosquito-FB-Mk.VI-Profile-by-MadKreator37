@@ -9037,9 +9037,9 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <TimerEnabled>True</TimerEnabled>
-          <TimerInterval>8.5</TimerInterval>
+          <TimerInterval>8</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 1" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Flight_Line_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9056,7 +9056,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire pic 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire pic 1" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9068,7 +9068,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 1" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9076,7 +9076,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 1" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 1" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9090,7 +9090,7 @@
               <TimerInterval>1.2</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 2" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 2" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Bomb_Arm_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9107,7 +9107,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 2" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 2" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9119,7 +9119,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 2" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 2" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9127,7 +9127,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 2" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 2" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9138,10 +9138,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>2</TimerInterval>
+              <TimerInterval>1.8</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 3" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 3" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_Bomb_Cam.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9158,7 +9158,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 3" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 3" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9170,7 +9170,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome  pic 3" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome  pic 3" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9178,7 +9178,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 3" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 3" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9189,10 +9189,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>2.8</TimerInterval>
+              <TimerInterval>2.4</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 4" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 4" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_Fire_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9209,7 +9209,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 4" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 4" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9221,7 +9221,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 4" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 4" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9229,7 +9229,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 4" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 4" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9240,10 +9240,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>3.6</TimerInterval>
+              <TimerInterval>3</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 5" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 5" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_After.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9260,7 +9260,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 5" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 5" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9272,7 +9272,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 5" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 5" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9280,7 +9280,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 5" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 5" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9291,7 +9291,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>4.5</TimerInterval>
+              <TimerInterval>3.6</TimerInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic Main" SnapTarget="False" Locked="True">
@@ -9311,7 +9311,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic main" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic main" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9323,7 +9323,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic main" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic main" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9331,7 +9331,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Pic Main" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Pic Main" SnapTarget="False" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9342,7 +9342,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>5.6</TimerInterval>
+              <TimerInterval>4.5</TimerInterval>
               <Children />
             </Control>
             <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic Mosquito logo" SnapTarget="False" Locked="True">
@@ -9358,7 +9358,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add logo" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add logo" SnapTarget="False" Locked="True">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9370,7 +9370,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome logo" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome logo" SnapTarget="False" Locked="True">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9378,7 +9378,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Mosquito logo" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Mosquito logo" SnapTarget="True" Locked="True">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9389,10 +9389,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>7</TimerInterval>
+              <TimerInterval>6.5</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
               <Location>70,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9400,7 +9400,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
               <Location>100,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9412,7 +9412,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
               <Location>58,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9423,10 +9423,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>5.6</TimerInterval>
+              <TimerInterval>5</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Author" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Author" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#FF63873B</FontColor>
@@ -9451,7 +9451,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
               <Location>137,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9459,7 +9459,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
               <Location>164,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9471,7 +9471,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Profile build" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Profile build" SnapTarget="True" Locked="True">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#FF292929</FontColor>
