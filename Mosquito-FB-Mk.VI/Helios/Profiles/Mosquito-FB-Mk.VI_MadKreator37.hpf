@@ -5432,7 +5432,7 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="radio base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="radio base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Radio.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5441,7 +5441,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="a light" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="a light" SnapTarget="True" Locked="False">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5467,7 +5467,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="b light" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="b light" SnapTarget="True" Locked="False">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5493,7 +5493,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="c light" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="c light" SnapTarget="True" Locked="False">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5519,7 +5519,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="d light" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="d light" SnapTarget="True" Locked="False">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5545,7 +5545,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="power light" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="power light" SnapTarget="True" Locked="False">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5571,7 +5571,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="off" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="off" SnapTarget="True" Locked="False">
               <Location>46,55</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5580,7 +5580,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="a" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="a" SnapTarget="True" Locked="False">
               <Location>46,115</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5589,7 +5589,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="b" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="b" SnapTarget="True" Locked="False">
               <Location>46,174</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5598,7 +5598,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="c" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="c" SnapTarget="True" Locked="False">
               <Location>46,232</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5607,7 +5607,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="d" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="d" SnapTarget="True" Locked="False">
               <Location>46,291</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5616,7 +5616,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="mode switch image" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="mode switch image" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Mode_Center.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5626,7 +5626,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="volume box" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="volume box" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Radio_Volume_Box.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5635,7 +5635,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="False">
               <Location>348,221</Location>
               <Size>113,113</Size>
               <Hidden>False</Hidden>
@@ -5650,6 +5650,18 @@
                 <Type>Swipe</Type>
                 <Sensitivity>1</Sensitivity>
               </ClickType>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Tx Lock" SnapTarget="True" Locked="False">
+              <Location>31,336</Location>
+              <Size>24,48</Size>
+              <Hidden>False</Hidden>
+              <SwitchType>OnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Touch</ClickType>
+              <PositionOneImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Transmit_Lock_Up.png</PositionOneImage>
+              <PositionTwoImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Transmit_Lock_Dn.png</PositionTwoImage>
+              <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
           </Children>
@@ -9025,9 +9037,9 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <TimerEnabled>True</TimerEnabled>
-          <TimerInterval>8.25</TimerInterval>
+          <TimerInterval>8.5</TimerInterval>
           <Children>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 1" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Flight_Line_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9039,12 +9051,12 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>35,2</Location>
-              <Size>490,371</Size>
+              <Location>136,117</Location>
+              <Size>284,216</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire pic 1" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9056,7 +9068,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 1" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9064,7 +9076,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 1" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9078,7 +9090,7 @@
               <TimerInterval>1.2</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 2" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Bomb_Arm_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9090,12 +9102,12 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>334,18</Location>
-              <Size>213,257</Size>
+              <Location>357,0</Location>
+              <Size>203,245</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 2" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9107,7 +9119,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 2" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9115,7 +9127,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 2" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9126,10 +9138,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>2.2</TimerInterval>
+              <TimerInterval>2</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 3" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_Bomb_Cam.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9141,12 +9153,12 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>10,132</Location>
-              <Size>193,223</Size>
+              <Location>20,129</Location>
+              <Size>206,237</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 3" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9158,7 +9170,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome  pic 3" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9166,7 +9178,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 3" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9177,10 +9189,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>2.7</TimerInterval>
+              <TimerInterval>2.8</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 4" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_Fire_1.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9192,12 +9204,12 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>296,133</Location>
-              <Size>258,233</Size>
+              <Location>327,178</Location>
+              <Size>210,189</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 4" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9209,7 +9221,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 4" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9217,7 +9229,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1 1 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 4" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9228,10 +9240,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>3.3</TimerInterval>
+              <TimerInterval>3.6</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic 5" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Jericho_After.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>5</CornerRadius>
@@ -9243,12 +9255,12 @@
               <Interaction>
                 <AllowInteraction>False</AllowInteraction>
               </Interaction>
-              <Location>19,9</Location>
-              <Size>249,236</Size>
+              <Location>3,11</Location>
+              <Size>274,259</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic 5" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9260,7 +9272,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic 5" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9268,7 +9280,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1 1 1 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel pic 5" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9279,13 +9291,13 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>3.9</TimerInterval>
+              <TimerInterval>4.5</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic Main" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Flight_Pic_2.png</Image>
               <Alignment>Stretched</Alignment>
-              <CornerRadius>5</CornerRadius>
+              <CornerRadius>8</CornerRadius>
               <DefaultOpacity>1</DefaultOpacity>
               <Border>
                 <Thickness>3</Thickness>
@@ -9299,7 +9311,41 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Translucent Image 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add pic main" SnapTarget="False" Locked="False">
+              <Location>327,0</Location>
+              <Size>28,24</Size>
+              <Hidden>False</Hidden>
+              <Thresholds>
+                <UseThresholdValues>True</UseThresholdValues>
+                <InitialValue>0</InitialValue>
+                <MinimumValue>0</MinimumValue>
+                <MaximumValue>100</MaximumValue>
+              </Thresholds>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome pic main" SnapTarget="False" Locked="False">
+              <Location>295,0</Location>
+              <Size>22,22</Size>
+              <Hidden>False</Hidden>
+              <MetronomeEnabled>False</MetronomeEnabled>
+              <TickInterval>0.01</TickInterval>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Pic Main" SnapTarget="False" Locked="False">
+              <Location>272,0</Location>
+              <Size>19,15</Size>
+              <Hidden>False</Hidden>
+              <Background />
+              <Interaction>
+                <AllowInteractionFull>False</AllowInteractionFull>
+                <AllowInteractionNone>True</AllowInteractionNone>
+                <AllowInteractionLegacy>False</AllowInteractionLegacy>
+              </Interaction>
+              <TimerEnabled>True</TimerEnabled>
+              <TimerInterval>5.6</TimerInterval>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="Pic Mosquito logo" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Flight_Pic_2_logo.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -9312,7 +9358,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add logo" SnapTarget="False" Locked="False">
               <Location>327,0</Location>
               <Size>28,24</Size>
               <Hidden>False</Hidden>
@@ -9324,7 +9370,7 @@
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2 1 1 1 1 1 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome logo" SnapTarget="False" Locked="False">
               <Location>295,0</Location>
               <Size>22,22</Size>
               <Hidden>False</Hidden>
@@ -9332,7 +9378,7 @@
               <TickInterval>0.01</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1 1 1 1 1 1 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel Mosquito logo" SnapTarget="True" Locked="False">
               <Location>272,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9343,30 +9389,10 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>6.5</TimerInterval>
+              <TimerInterval>7</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire add" SnapTarget="False" Locked="True">
-              <Location>327,0</Location>
-              <Size>28,24</Size>
-              <Hidden>False</Hidden>
-              <Thresholds>
-                <UseThresholdValues>True</UseThresholdValues>
-                <InitialValue>0</InitialValue>
-                <MinimumValue>0</MinimumValue>
-                <MaximumValue>100</MaximumValue>
-              </Thresholds>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 2" SnapTarget="False" Locked="True">
-              <Location>295,0</Location>
-              <Size>22,22</Size>
-              <Hidden>False</Hidden>
-              <MetronomeEnabled>False</MetronomeEnabled>
-              <TickInterval>0.01</TickInterval>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome" SnapTarget="False" Locked="False">
               <Location>70,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9374,7 +9400,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire" SnapTarget="False" Locked="False">
               <Location>100,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9382,11 +9408,11 @@
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
                 <MinimumValue>0</MinimumValue>
-                <MaximumValue>25</MaximumValue>
+                <MaximumValue>12</MaximumValue>
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel" SnapTarget="True" Locked="False">
               <Location>58,0</Location>
               <Size>19,15</Size>
               <Hidden>False</Hidden>
@@ -9397,13 +9423,13 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>3</TimerInterval>
+              <TimerInterval>5.6</TimerInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Author" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
-              <FontColor>#FF303030</FontColor>
+              <FontColor>#FF63873B</FontColor>
               <Font>
                 <FontFamily>Constantia</FontFamily>
                 <FontStyle>Normal</FontStyle>
@@ -9420,12 +9446,12 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>12,8</Location>
-              <Size>368,62</Size>
+              <Location>3,8</Location>
+              <Size>340,62</Size>
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Special.Metronome" Name="Metronome 1" SnapTarget="False" Locked="False">
               <Location>137,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9433,7 +9459,7 @@
               <TickInterval>0.5</TickInterval>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.SimpleComputationWire" Name="SimpleComputationalWire 1" SnapTarget="False" Locked="False">
               <Location>164,0</Location>
               <Size>24,15</Size>
               <Hidden>False</Hidden>
@@ -9441,11 +9467,11 @@
                 <UseThresholdValues>True</UseThresholdValues>
                 <InitialValue>0</InitialValue>
                 <MinimumValue>0</MinimumValue>
-                <MaximumValue>30</MaximumValue>
+                <MaximumValue>22</MaximumValue>
               </Thresholds>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen 1" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Text" Name="Splash Screen Profile build" SnapTarget="True" Locked="False">
               <FillBackground>False</FillBackground>
               <BackgroundColor>#FF1E1E1E</BackgroundColor>
               <FontColor>#FF292929</FontColor>
@@ -9465,23 +9491,9 @@
               </Font>
               <Text />
               <ScalingMode>None</ScalingMode>
-              <Location>93,63</Location>
+              <Location>80,63</Location>
               <Size>406,37</Size>
               <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Panel.Timer" Name="trigger panel 1" SnapTarget="True" Locked="True">
-              <Location>272,0</Location>
-              <Size>19,15</Size>
-              <Hidden>False</Hidden>
-              <Background />
-              <Interaction>
-                <AllowInteractionFull>False</AllowInteractionFull>
-                <AllowInteractionNone>True</AllowInteractionNone>
-                <AllowInteractionLegacy>False</AllowInteractionLegacy>
-              </Interaction>
-              <TimerEnabled>True</TimerEnabled>
-              <TimerInterval>5</TimerInterval>
               <Children />
             </Control>
           </Children>
@@ -9524,72 +9536,77 @@
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="set.Numeric Signal" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic main;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic main" Name="set.Numeric Signal" />
       <StaticValue>0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1;Helios.Panel.Timer;trigger panel 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 2;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 2" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire pic 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire pic 1" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel pic 1;Helios.Panel.Timer;trigger panel pic 1" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1" Name="set.Numeric Signal" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 3;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 3" Name="set.Numeric Signal" />
       <StaticValue>0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1;Helios.Panel.Timer;trigger panel 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 4;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 4" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 5;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 5" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add logo;Helios.Base.SimpleComputationWire;SimpleComputationalWire add logo" Name="set.Numeric Signal" />
+      <StaticValue>0</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
+      <Action Target="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1" Name="set.Numeric Signal" />
-      <StaticValue>0</StaticValue>
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel pic 2;Helios.Panel.Timer;trigger panel pic 2" Name="Timer.set.Enable" />
+      <StaticValue>2.1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel pic 3;Helios.Panel.Timer;trigger panel pic 3" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1" Name="set.Numeric Signal" />
-      <StaticValue>0</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel pic 4;Helios.Panel.Timer;trigger panel pic 4" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1" Name="set.Numeric Signal" />
-      <StaticValue>0</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel pic 5;Helios.Panel.Timer;trigger panel pic 5" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1" Name="set.Numeric Signal" />
-      <StaticValue>0</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel Pic Main;Helios.Panel.Timer;trigger panel Pic Main" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1 1" Name="set.Numeric Signal" />
-      <StaticValue>0</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Interface;;Helios.Base.ProfileInterface;Profile" Name="Started" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel Mosquito logo;Helios.Panel.Timer;trigger panel Mosquito logo" Name="Timer.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -11020,6 +11037,11 @@ else return(false) end</LuaScript>
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.Transmission Lock.changed" />
+      <Action Target="Visual;Monitor 2.Pilot Radio Panel.Tx Lock;Helios.Base.ToggleSwitch;Tx Lock" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.JBA Panel.Push - Red;Helios.Base.PushButton;Push - Red" Name="closed" />
       <Action Target="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="JBA.push.Feathering Switch Starboard" />
       <StaticValue />
@@ -11447,7 +11469,7 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.fuel button;Helios.Base.PushButton;fuel button" Name="closed" />
       <Action Target="Visual;Monitor 2.lower panel button;Helios.Base.PushButton;lower panel button" Name="set.physical state" />
-      <StaticValue>false21212121</StaticValue>
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.R Wall button;Helios.Base.PushButton;R Wall button" Name="closed" />
@@ -12262,7 +12284,7 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Lighting Button;Helios.Base.PushButton;Lighting Button" Name="closed" />
       <Action Target="Visual;Monitor 2.fuel button;Helios.Base.PushButton;fuel button" Name="set.physical state" />
-      <StaticValue>false21</StaticValue>
+      <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.brake lock button;Helios.Base.PushButton;brake lock button" Name="closed" />
@@ -12782,6 +12804,11 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Pilot Radio Panel.Potentiometer;Helios.Base.Potentiometer;Potentiometer" Name="value.changed" />
       <Action Target="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.set.Volume Knob" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Pilot Radio Panel.Tx Lock;Helios.Base.ToggleSwitch;Tx Lock" Name="position.changed" />
+      <Action Target="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.set.Transmission Lock" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -13371,138 +13398,153 @@ else return(false) end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic main;Helios.Special.Metronome;Metronome pic main" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1;Helios.Special.Metronome;Metronome 2 1" Name="Metronome.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 2;Helios.Special.Metronome;Metronome pic 2" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1;Helios.Special.Metronome;Metronome 2 1 1" Name="Metronome.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 1;Helios.Special.Metronome;Metronome pic 1" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1" Name="Metronome.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome  pic 3;Helios.Special.Metronome;Metronome  pic 3" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1" Name="Metronome.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 4;Helios.Special.Metronome;Metronome pic 4" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1 1" Name="Metronome.set.Enable" />
-      <StaticValue>true</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1 1 1" Name="Timer.set.Enable" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 5;Helios.Special.Metronome;Metronome pic 5" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1 1;Helios.Base.ImageTranslucent;Translucent Image 1 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome logo;Helios.Special.Metronome;Metronome logo" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen;Helios.Panel.Timer;Splash Screen" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome.set.Enable" />
+      <StaticValue>false</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire pic 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire pic 1" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic 1;Helios.Base.ImageTranslucent;Pic 1" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1 1;Helios.Special.Metronome;Metronome 2 1 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome pic 1;Helios.Special.Metronome;Metronome pic 1" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire pic 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire pic 1" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1;Helios.Special.Metronome;Metronome 2 1 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel pic 1;Helios.Panel.Timer;trigger panel pic 1" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 1;Helios.Special.Metronome;Metronome pic 1" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1;Helios.Base.ImageTranslucent;Translucent Image 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 2;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 2" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic 2;Helios.Base.ImageTranslucent;Pic 2" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1;Helios.Special.Metronome;Metronome 2 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome pic 2;Helios.Special.Metronome;Metronome pic 2" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 2;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 2" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1;Helios.Panel.Timer;trigger panel 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1;Helios.Special.Metronome;Metronome 2 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel pic 2;Helios.Panel.Timer;trigger panel pic 2" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 2;Helios.Special.Metronome;Metronome pic 2" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1 1 1;Helios.Base.ImageTranslucent;Translucent Image 1 1 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 3;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 3" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic 3;Helios.Base.ImageTranslucent;Pic 3" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome  pic 3;Helios.Special.Metronome;Metronome  pic 3" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 3;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 3" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel pic 3;Helios.Panel.Timer;trigger panel pic 3" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome  pic 3;Helios.Special.Metronome;Metronome  pic 3" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1 1 1 1;Helios.Base.ImageTranslucent;Translucent Image 1 1 1 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 4;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 4" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic 4;Helios.Base.ImageTranslucent;Pic 4" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome pic 4;Helios.Special.Metronome;Metronome pic 4" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 4;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 4" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel pic 4;Helios.Panel.Timer;trigger panel pic 4" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 4;Helios.Special.Metronome;Metronome pic 4" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1 1 1 1 1;Helios.Base.ImageTranslucent;Translucent Image 1 1 1 1 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 5;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 5" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic 5;Helios.Base.ImageTranslucent;Pic 5" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome pic 5;Helios.Special.Metronome;Metronome pic 5" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic 5;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic 5" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel pic 5;Helios.Panel.Timer;trigger panel pic 5" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic 5;Helios.Special.Metronome;Metronome pic 5" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image 1 1 1 1 1 1;Helios.Base.ImageTranslucent;Translucent Image 1 1 1 1 1 1" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic main;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic main" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic Main;Helios.Base.ImageTranslucent;Pic Main" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1 1 1" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add 1 1 1 1 1 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire add 1 1 1 1 1 1" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome pic main;Helios.Special.Metronome;Metronome pic main" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add pic main;Helios.Base.SimpleComputationWire;SimpleComputationalWire add pic main" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1 1 1 1 1 1 1;Helios.Panel.Timer;trigger panel 1 1 1 1 1 1 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2 1 1 1 1 1 1;Helios.Special.Metronome;Metronome 2 1 1 1 1 1 1" Name="Metronome.set.Enable" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel Pic Main;Helios.Panel.Timer;trigger panel Pic Main" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome pic main;Helios.Special.Metronome;Metronome pic main" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Translucent Image;Helios.Base.ImageTranslucent;Translucent Image" Name="set.opacity" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add logo;Helios.Base.SimpleComputationWire;SimpleComputationalWire add logo" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Pic Mosquito logo;Helios.Base.ImageTranslucent;Pic Mosquito logo" Name="set.opacity" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome Tick" />
-      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add;Helios.Base.SimpleComputationWire;SimpleComputationalWire add" Name="set.Numeric addition Value" />
+      <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome logo;Helios.Special.Metronome;Metronome logo" Name="Metronome Tick" />
+      <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add logo;Helios.Base.SimpleComputationWire;SimpleComputationalWire add logo" Name="set.Numeric addition Value" />
       <StaticValue>.02</StaticValue>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel Mosquito logo;Helios.Panel.Timer;trigger panel Mosquito logo" Name="hidden" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Metronome logo;Helios.Special.Metronome;Metronome logo" Name="Metronome.set.Enable" />
+      <StaticValue>true</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome Tick" />
@@ -13513,11 +13555,6 @@ else return(false) end</LuaScript>
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
       <StaticValue>false</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen;Helios.Base.Text;Splash Screen" Name="set.Text" />
-      <LuaScript>return(string.sub("~_Author~",0,TriggerValue))</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
@@ -13535,6 +13572,11 @@ else return(false) end</LuaScript>
       <StaticValue>1</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Numeric Signal.changed" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen Author;Helios.Base.Text;Splash Screen Author" Name="set.Text" />
+      <LuaScript>return(string.sub("_Author",0,TriggerValue))</LuaScript>
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome;Helios.Special.Metronome;Metronome" Name="Metronome.set.Enable" />
       <StaticValue>true</StaticValue>
@@ -13550,11 +13592,6 @@ else return(false) end</LuaScript>
       <StaticValue>1.0</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel;Helios.Panel.Timer;trigger panel" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Default Interval" />
-      <StaticValue>.01</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome Tick" />
       <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="set.Numeric addition Value" />
       <StaticValue>1</StaticValue>
@@ -13566,13 +13603,8 @@ else return(false) end</LuaScript>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire 1;Helios.Base.SimpleComputationWire;SimpleComputationalWire 1" Name="Numeric Signal.changed" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen 1;Helios.Base.Text;Splash Screen 1" Name="set.Text" />
+      <Action Target="Visual;Monitor 2.Splash Screen.Splash Screen Profile build;Helios.Base.Text;Splash Screen Profile build" Name="set.Text" />
       <LuaScript>return(string.sub(" _ProfileVersionNumber  _BuildDate",0,TriggerValue))</LuaScript>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel 1;Helios.Panel.Timer;trigger panel 1" Name="hidden" />
-      <Action Target="Visual;Monitor 2.Splash Screen.Metronome 2;Helios.Special.Metronome;Metronome 2" Name="Metronome.set.Enable" />
-      <StaticValue>true</StaticValue>
     </Binding>
   </Bindings>
 </HeliosProfile>
