@@ -6,7 +6,7 @@ This is a Helios profile for [Eagle Dynamics' Mosquito for DCS](https://www.digi
 This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
 ### IMPORTANT!
-You *MUST* be running Helios 1.6.615.0030 minimum. Please visit the link above to download the latest releases of both.
+You *MUST* be running Helios 1.6.615.0003 minimum. Please visit the link above to download the latest releases of both.
 
 ### ABOUT
 This profile was designed and created by MadKreator37. All parts were cut and modified from the 3D model of the Mossie cockpit... and maybe a little hint of some Spitfire parts in there.  
