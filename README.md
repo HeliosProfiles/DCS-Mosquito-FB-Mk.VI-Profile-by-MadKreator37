@@ -16,6 +16,9 @@ This profile was designed and created by MadKreator37. All parts were cut and mo
 
 ### Known Bugs and Issues
  
+ 1: Pilot remote radio mode switch may not function correctly until the Helios 1.6.615.1+
+
+
 ### IMAGES
 <img width="960" height="540" alt="Screenshot 2025-08-13 222756" src="https://github.com/user-attachments/assets/1756a5b7-48a4-484a-8656-54bade7c5bea" />
 <img width="960" height="540" alt="Screenshot 2025-08-13 222806" src="https://github.com/user-attachments/assets/bf892f55-3216-45eb-9bcb-b236c8548f87" />
@@ -51,5 +54,5 @@ MadKreator37 Discord-- https://discord.gg/u8gT7DPHcV
 
 ### CREDITS
 
-Images used in the Splashcreen we downloaded and installed form Wikimedia Commons. All content is certified free for public use and in accordance with their "Terms of Use"
+Images used in the Splashcreen were downloaded and installed form Wikimedia Commons. All content is certified free for public use and in accordance with their "Terms of Use"
 https://foundation.m.wikimedia.org/wiki/Policy:Terms_of_Use
