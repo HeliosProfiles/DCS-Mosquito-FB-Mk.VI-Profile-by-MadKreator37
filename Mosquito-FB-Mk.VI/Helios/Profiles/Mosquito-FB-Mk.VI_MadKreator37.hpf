@@ -12,7 +12,7 @@
       <Children />
     </Monitor>
     <Monitor>
-      <Location>884,2160</Location>
+      <Location>958,2160</Location>
       <Size>1920,1080</Size>
       <Hidden>False</Hidden>
       <Orientation>DMDO_DEFAULT</Orientation>
@@ -5339,7 +5339,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Image" SnapTarget="False" Locked="True">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Back_Texture.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -5348,7 +5348,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Image 1" SnapTarget="False" Locked="False">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Image 1" SnapTarget="False" Locked="True">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Throttle_Quad.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -5357,7 +5357,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Rocket Switch" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Rocket Switch" SnapTarget="True" Locked="True">
                   <Location>106,258</Location>
                   <Size>32,38</Size>
                   <Hidden>False</Hidden>
@@ -5369,7 +5369,7 @@
                   <DefaultPosition>One</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Supercharger Siwtch" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Supercharger Siwtch" SnapTarget="True" Locked="True">
                   <Location>285,408</Location>
                   <Size>32,36</Size>
                   <Hidden>False</Hidden>
@@ -5381,7 +5381,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Mixture lever" SnapTarget="True" Locked="False">
+                <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Mixture lever" SnapTarget="True" Locked="True">
                   <Location>134,310</Location>
                   <Size>75,214</Size>
                   <Hidden>False</Hidden>
@@ -5432,7 +5432,7 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Base.Image" Name="radio base" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="radio base" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Radio.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5441,7 +5441,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="a light" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="a light" SnapTarget="True" Locked="True">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5467,7 +5467,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="b light" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="b light" SnapTarget="True" Locked="True">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5493,7 +5493,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="c light" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="c light" SnapTarget="True" Locked="True">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5519,7 +5519,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="d light" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="d light" SnapTarget="True" Locked="True">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5545,7 +5545,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Indicator" Name="power light" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Indicator" Name="power light" SnapTarget="True" Locked="True">
               <OnImage>MadKreator37\Mosquito-FB-Mk.VI\Indicators\Radio_Channel_Light.png</OnImage>
               <OffImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</OffImage>
               <Font>
@@ -5571,7 +5571,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="off" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="off" SnapTarget="True" Locked="True">
               <Location>46,55</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5580,7 +5580,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="a" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="a" SnapTarget="True" Locked="True">
               <Location>46,115</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5589,7 +5589,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="b" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="b" SnapTarget="True" Locked="True">
               <Location>46,174</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5598,7 +5598,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="c" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="c" SnapTarget="True" Locked="True">
               <Location>46,232</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5607,7 +5607,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="d" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="d" SnapTarget="True" Locked="True">
               <Location>46,291</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5616,17 +5616,7 @@
               <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Button_Pressed.png</PushedImage>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="mode switch image" SnapTarget="False" Locked="False">
-              <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Mode_Center.png</Image>
-              <Alignment>Stretched</Alignment>
-              <CornerRadius>0</CornerRadius>
-              <Location>-25,400</Location>
-              <Size>50,134</Size>
-              <Rotation>CCW</Rotation>
-              <Hidden>False</Hidden>
-              <Children />
-            </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="volume box" SnapTarget="False" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Image" Name="volume box" SnapTarget="False" Locked="True">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Radio_Volume_Box.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5635,7 +5625,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Potentiometer" SnapTarget="True" Locked="True">
               <Location>348,221</Location>
               <Size>113,113</Size>
               <Hidden>False</Hidden>
@@ -5652,15 +5642,29 @@
               </ClickType>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Tx Lock" SnapTarget="True" Locked="False">
+            <Control TypeIdentifier="Helios.Base.ToggleSwitch" Name="Tx Lock" SnapTarget="True" Locked="True">
               <Location>31,336</Location>
               <Size>24,48</Size>
               <Hidden>False</Hidden>
               <SwitchType>OnOn</SwitchType>
               <Orientation>Vertical</Orientation>
-              <ClickType>Touch</ClickType>
+              <ClickType>Swipe</ClickType>
               <PositionOneImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Transmit_Lock_Up.png</PositionOneImage>
               <PositionTwoImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Transmit_Lock_Dn.png</PositionTwoImage>
+              <DefaultPosition>One</DefaultPosition>
+              <Children />
+            </Control>
+            <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Mode Select" SnapTarget="True" Locked="True">
+              <Location>-18,401</Location>
+              <Size>48,131</Size>
+              <Rotation>CCW</Rotation>
+              <Hidden>False</Hidden>
+              <SwitchType>OnOnOn</SwitchType>
+              <Orientation>Vertical</Orientation>
+              <ClickType>Swipe</ClickType>
+              <PositionOneImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Mode_Left.png</PositionOneImage>
+              <PositionTwoImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Mode_Center.png</PositionTwoImage>
+              <PositionThreeImage>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\Radio_Mode_Right.png</PositionThreeImage>
               <DefaultPosition>Two</DefaultPosition>
               <Children />
             </Control>
@@ -5677,7 +5681,7 @@
             <AllowInteractionLegacy>False</AllowInteractionLegacy>
           </Interaction>
           <Children>
-            <Control TypeIdentifier="Helios.Panel" Name="Nav Receiver Radio Panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="Nav Receiver Radio Panel" SnapTarget="True" Locked="False">
               <Location>117,344</Location>
               <Size>1326,726</Size>
               <Hidden>False</Hidden>
@@ -5728,7 +5732,7 @@
                   <RotationTravel>180.293637846656</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Receiver Background" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Receiver Background" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Receiver_Radio.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -5957,7 +5961,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="trans base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="trans base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -5966,7 +5970,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV Transm radio button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="NAV Transm radio button" SnapTarget="True" Locked="False">
               <Location>1090,856</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -5994,7 +5998,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="type f base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="type f base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -6003,7 +6007,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="Type F button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="Type F button" SnapTarget="True" Locked="False">
               <Location>1311,953</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -6031,7 +6035,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="aerial base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="aerial base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -6040,7 +6044,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="aerial type select button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="aerial type select button" SnapTarget="True" Locked="False">
               <Location>1090,953</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -6068,7 +6072,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="iff base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="iff base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -6077,7 +6081,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="IFF Button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="IFF Button" SnapTarget="True" Locked="False">
               <Location>1311,856</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -6105,7 +6109,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="reset base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="reset base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -6114,7 +6118,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="reset button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="reset button" SnapTarget="True" Locked="False">
               <Location>1199,953</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -6142,7 +6146,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.Image" Name="loop base" SnapTarget="False" Locked="True">
+            <Control TypeIdentifier="Helios.Base.Image" Name="loop base" SnapTarget="False" Locked="False">
               <Image>MadKreator37\Mosquito-FB-Mk.VI\Buttons_Switches_Knobs\ACC_Button Bezel.png</Image>
               <Alignment>Stretched</Alignment>
               <CornerRadius>0</CornerRadius>
@@ -6151,7 +6155,7 @@
               <Hidden>False</Hidden>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Base.PushButton" Name="loop antenna button" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Base.PushButton" Name="loop antenna button" SnapTarget="True" Locked="False">
               <Location>1199,856</Location>
               <Size>51,45</Size>
               <Hidden>False</Hidden>
@@ -6179,7 +6183,7 @@
               </Text>
               <Children />
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Type F Panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="Type F Panel" SnapTarget="True" Locked="False">
               <Location>1081,184</Location>
               <Size>491,258</Size>
               <Hidden>True</Hidden>
@@ -6276,7 +6280,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Nav Trans radio panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="Nav Trans radio panel" SnapTarget="True" Locked="False">
               <Location>4,-2</Location>
               <Size>945,792</Size>
               <Hidden>True</Hidden>
@@ -6299,7 +6303,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.Image" Name="M2 face" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="M2 face" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\M2_Gauge_Face.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -6308,7 +6312,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="M2 gauge" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="M2 gauge" SnapTarget="True" Locked="False">
                   <Location>452,83</Location>
                   <Size>105,92</Size>
                   <Hidden>False</Hidden>
@@ -6327,7 +6331,7 @@
                   <RotationTravel>85.1549755301794</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="M1 face" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="M1 face" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\M1_Gauge_Face.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -6336,7 +6340,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="M1 Gauge " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="M1 Gauge " SnapTarget="True" Locked="False">
                   <Location>295,83</Location>
                   <Size>105,92</Size>
                   <Hidden>False</Hidden>
@@ -6355,7 +6359,7 @@
                   <RotationTravel>92.2022838499183</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Transmitter 2Background" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Transmitter 2Background" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\Radio_Transmitter.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -6364,7 +6368,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Master Switch" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="Master Switch" SnapTarget="True" Locked="False">
                   <Location>334,525</Location>
                   <Size>176,176</Size>
                   <Hidden>False</Hidden>
@@ -6383,7 +6387,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C17 Gauge" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C17 Gauge" SnapTarget="True" Locked="False">
                   <Location>77,84</Location>
                   <Size>167,167</Size>
                   <Hidden>False</Hidden>
@@ -6402,7 +6406,7 @@
                   <RotationTravel>360</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C17 encoder" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C17 encoder" SnapTarget="True" Locked="False">
                   <Location>85,92</Location>
                   <Size>152,152</Size>
                   <Hidden>False</Hidden>
@@ -6416,7 +6420,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C4 Gauge " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C4 Gauge " SnapTarget="True" Locked="False">
                   <Location>76,287</Location>
                   <Size>167,167</Size>
                   <Hidden>False</Hidden>
@@ -6435,7 +6439,7 @@
                   <RotationTravel>360</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C4 encoder " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C4 encoder " SnapTarget="True" Locked="False">
                   <Location>84,295</Location>
                   <Size>152,152</Size>
                   <Hidden>False</Hidden>
@@ -6449,7 +6453,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C2 Gauge " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="MOC C2 Gauge " SnapTarget="True" Locked="False">
                   <Location>76,489</Location>
                   <Size>167,167</Size>
                   <Hidden>False</Hidden>
@@ -6468,7 +6472,7 @@
                   <RotationTravel>360</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C2 encoder" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="MOC C2 encoder" SnapTarget="True" Locked="False">
                   <Location>84,497</Location>
                   <Size>152,152</Size>
                   <Hidden>False</Hidden>
@@ -6482,7 +6486,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="OCC C15 Gauge " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="OCC C15 Gauge " SnapTarget="True" Locked="False">
                   <Location>710,63</Location>
                   <Size>167,167</Size>
                   <Hidden>False</Hidden>
@@ -6501,7 +6505,7 @@
                   <RotationTravel>360</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="OCC C15 encoder" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="OCC C15 encoder" SnapTarget="True" Locked="False">
                   <Location>718,71</Location>
                   <Size>152,152</Size>
                   <Hidden>False</Hidden>
@@ -6515,7 +6519,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="OCC C16 Gauge  " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="OCC C16 Gauge  " SnapTarget="True" Locked="False">
                   <Location>726,295</Location>
                   <Size>167,167</Size>
                   <Hidden>False</Hidden>
@@ -6534,7 +6538,7 @@
                   <RotationTravel>360</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="OCC C16 encoder " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotaryEncoder" Name="OCC C16 encoder " SnapTarget="True" Locked="False">
                   <Location>734,303</Location>
                   <Size>152,152</Size>
                   <Hidden>False</Hidden>
@@ -6548,7 +6552,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="OIC L6 pot" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="OIC L6 pot" SnapTarget="True" Locked="False">
                   <Location>667,489</Location>
                   <Size>148,148</Size>
                   <Hidden>False</Hidden>
@@ -6565,7 +6569,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Frequency switch" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ThreeWayToggleSwitch" Name="Frequency switch" SnapTarget="True" Locked="False">
                   <Location>153,666</Location>
                   <Size>75,104</Size>
                   <Hidden>False</Hidden>
@@ -6578,7 +6582,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob" SnapTarget="True" Locked="False">
                   <Location>33,71</Location>
                   <Size>61,61</Size>
                   <Hidden>False</Hidden>
@@ -6599,7 +6603,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 1" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 1" SnapTarget="True" Locked="False">
                   <Location>33,281</Location>
                   <Size>61,61</Size>
                   <Hidden>False</Hidden>
@@ -6620,7 +6624,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 1 1" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 1 1" SnapTarget="True" Locked="False">
                   <Location>34,481</Location>
                   <Size>61,61</Size>
                   <Hidden>False</Hidden>
@@ -6641,7 +6645,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 2" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 2" SnapTarget="True" Locked="False">
                   <Location>670,34</Location>
                   <Size>61,61</Size>
                   <Hidden>False</Hidden>
@@ -6662,7 +6666,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 2 1" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="preset c17 knob 2 1" SnapTarget="True" Locked="False">
                   <Location>844,247</Location>
                   <Size>61,61</Size>
                   <Hidden>False</Hidden>
@@ -6683,7 +6687,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S4 Induct tapping" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S4 Induct tapping" SnapTarget="True" Locked="False">
                   <Location>564,362</Location>
                   <Size>168,168</Size>
                   <Hidden>False</Hidden>
@@ -6705,7 +6709,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S3 Induct tapping" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S3 Induct tapping" SnapTarget="True" Locked="False">
                   <Location>562,154</Location>
                   <Size>168,168</Size>
                   <Hidden>False</Hidden>
@@ -6727,7 +6731,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S7 induct tapping" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S7 induct tapping" SnapTarget="True" Locked="False">
                   <Location>604,631</Location>
                   <Size>137,137</Size>
                   <Hidden>False</Hidden>
@@ -6757,7 +6761,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S7 induct tapping 1" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.RotarySwitch" Name="S7 induct tapping 1" SnapTarget="True" Locked="False">
                   <Location>747,631</Location>
                   <Size>137,137</Size>
                   <Hidden>False</Hidden>
@@ -6787,7 +6791,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Verneir gear c4 gauge" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Verneir gear c4 gauge" SnapTarget="True" Locked="False">
                   <Location>212,223</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
@@ -6806,7 +6810,7 @@
                   <RotationTravel>80.4567699836868</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Verneir gear c2 gauge " SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomGauge" Name="Verneir gear c2 gauge " SnapTarget="True" Locked="False">
                   <Location>212,426</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
@@ -6825,7 +6829,7 @@
                   <RotationTravel>80.4567699836868</RotationTravel>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Verneir gear c4 pot" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="Verneir gear c4 pot" SnapTarget="True" Locked="False">
                   <Location>216,222</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
@@ -6842,7 +6846,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="verneir gear c2 pot" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Potentiometer" Name="verneir gear c2 pot" SnapTarget="True" Locked="False">
                   <Location>217,421</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
@@ -6861,7 +6865,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Aerial type selector panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="Aerial type selector panel" SnapTarget="True" Locked="False">
               <Location>4,652</Location>
               <Size>420,417</Size>
               <Hidden>True</Hidden>
@@ -6913,7 +6917,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="M3 HF Panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="M3 HF Panel" SnapTarget="True" Locked="False">
               <Location>140,454</Location>
               <Size>175,230</Size>
               <Hidden>True</Hidden>
@@ -6975,7 +6979,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="IFF Panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="IFF Panel" SnapTarget="True" Locked="False">
               <Location>1100,3</Location>
               <Size>453,439</Size>
               <Hidden>True</Hidden>
@@ -7071,7 +7075,7 @@
                 </Control>
               </Children>
             </Control>
-            <Control TypeIdentifier="Helios.Panel" Name="Loop Antenna Panel" SnapTarget="True" Locked="True">
+            <Control TypeIdentifier="Helios.Panel" Name="Loop Antenna Panel" SnapTarget="True" Locked="False">
               <Location>482,324</Location>
               <Size>583,512</Size>
               <Hidden>True</Hidden>
@@ -7094,7 +7098,7 @@
                 <AllowInteractionLegacy>False</AllowInteractionLegacy>
               </Interaction>
               <Children>
-                <Control TypeIdentifier="Helios.Base.CustomTape" Name="loop antenna tape gauge" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.CustomTape" Name="loop antenna tape gauge" SnapTarget="True" Locked="False">
                   <Location>189,195</Location>
                   <Size>203,103</Size>
                   <Hidden>False</Hidden>
@@ -7143,7 +7147,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Image" Name="Receiver Background" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Image" Name="Receiver Background" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Bezels_And_Faces\DF_Antenna_Base.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7165,7 +7169,7 @@
                   <DefaultPosition>Two</DefaultPosition>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="Loop antenna scale pot" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="Loop antenna scale pot" SnapTarget="True" Locked="False">
                   <Location>239,298</Location>
                   <Size>100,100</Size>
                   <Hidden>True</Hidden>
@@ -7183,7 +7187,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="Loop antenna Pot- static" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.PotentiometerEndless" Name="Loop antenna Pot- static" SnapTarget="True" Locked="False">
                   <Location>239,298</Location>
                   <Size>100,100</Size>
                   <Hidden>False</Hidden>
@@ -7201,7 +7205,7 @@
                   </ClickType>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="marker" SnapTarget="False" Locked="True">
+                <Control TypeIdentifier="Helios.Base.ImageTranslucent" Name="marker" SnapTarget="False" Locked="False">
                   <Image>MadKreator37\Mosquito-FB-Mk.VI\Needles_Tapes_Pointers\DF_Antenna_Pointer.png</Image>
                   <Alignment>Stretched</Alignment>
                   <CornerRadius>0</CornerRadius>
@@ -7214,7 +7218,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Text" Name="lock label" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Text" Name="lock label" SnapTarget="True" Locked="False">
                   <FillBackground>False</FillBackground>
                   <BackgroundColor>#FF1E1E1E</BackgroundColor>
                   <FontColor>#FF090404</FontColor>
@@ -7239,7 +7243,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.Text" Name="unlock label" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.Text" Name="unlock label" SnapTarget="True" Locked="False">
                   <FillBackground>False</FillBackground>
                   <BackgroundColor>#FF1E1E1E</BackgroundColor>
                   <FontColor>#FF0A0404</FontColor>
@@ -7264,7 +7268,7 @@
                   <Hidden>False</Hidden>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.PushButton" Name="Lock pushbutton invisible" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.PushButton" Name="Lock pushbutton invisible" SnapTarget="True" Locked="False">
                   <Location>264,111</Location>
                   <Size>50,50</Size>
                   <Hidden>False</Hidden>
@@ -7273,7 +7277,7 @@
                   <PushedImage>MadKreator37\Mosquito-FB-Mk.VI\Transparent_Image.png</PushedImage>
                   <Children />
                 </Control>
-                <Control TypeIdentifier="Helios.Base.PushButton" Name="Unlock push button invisible" SnapTarget="True" Locked="True">
+                <Control TypeIdentifier="Helios.Base.PushButton" Name="Unlock push button invisible" SnapTarget="True" Locked="False">
                   <Location>264,163</Location>
                   <Size>50,50</Size>
                   <Hidden>False</Hidden>
@@ -9501,15 +9505,6 @@
       </Children>
     </Monitor>
     <Monitor>
-      <Location>2804,2171</Location>
-      <Size>800,600</Size>
-      <Hidden>False</Hidden>
-      <Orientation>DMDO_DEFAULT</Orientation>
-      <AlwaysOnTop>True</AlwaysOnTop>
-      <Background />
-      <Children />
-    </Monitor>
-    <Monitor>
       <Location>3840,731</Location>
       <Size>5120,1440</Size>
       <Hidden>False</Hidden>
@@ -11039,6 +11034,11 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.Transmission Lock.changed" />
       <Action Target="Visual;Monitor 2.Pilot Radio Panel.Tx Lock;Helios.Base.ToggleSwitch;Tx Lock" Name="set.position" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.Mode Switch.changed" />
+      <Action Target="Visual;Monitor 2.Pilot Radio Panel.Mode Select;Helios.Base.ThreeWayToggleSwitch;Mode Select" Name="set.position" />
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
@@ -12812,6 +12812,11 @@ else return(false) end</LuaScript>
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
+      <Trigger Source="Visual;Monitor 2.Pilot Radio Panel.Mode Select;Helios.Base.ThreeWayToggleSwitch;Mode Select" Name="position.changed" />
+      <Action Target="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="Radio Remote Channel Switcher.set.Mode Switch" />
+      <TriggerValue />
+    </Binding>
+    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Nav Radio Panel.Nav Receiver Radio Panel.Frequency range;Helios.Base.RotarySwitch;Frequency range" Name="position.changed" />
       <Action Target="Interface;;Helios.DH98Mosquito;DCS DH98 Mosquito FB Mk VI" Name="R.1155.set.Frequency Range Switch" />
       <TriggerValue />
@@ -13539,7 +13544,7 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.Metronome logo;Helios.Special.Metronome;Metronome logo" Name="Metronome Tick" />
       <Action Target="Visual;Monitor 2.Splash Screen.SimpleComputationalWire add logo;Helios.Base.SimpleComputationWire;SimpleComputationalWire add logo" Name="set.Numeric addition Value" />
-      <StaticValue>.02</StaticValue>
+      <StaticValue>.04</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.trigger panel Mosquito logo;Helios.Panel.Timer;trigger panel Mosquito logo" Name="hidden" />
@@ -13564,7 +13569,7 @@ else return(false) end</LuaScript>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
       <Action Target="Visual;Monitor 2.Splash Screen.Metronome 1;Helios.Special.Metronome;Metronome 1" Name="Metronome.set.Default Interval" />
-      <StaticValue>.05</StaticValue>
+      <StaticValue>.03</StaticValue>
     </Binding>
     <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Splash Screen.SimpleComputationalWire;Helios.Base.SimpleComputationWire;SimpleComputationalWire" Name="Upper/Lower threshold breach.changed" />
