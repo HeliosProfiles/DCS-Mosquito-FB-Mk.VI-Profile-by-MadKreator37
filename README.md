@@ -16,11 +16,17 @@ This profile was designed and created by MadKreator37. All parts were cut and mo
 
 ### Known Bugs and Issues
  
-
-
 ### IMAGES
-
-
+<img width="960" height="540" alt="Screenshot 2025-08-13 222756" src="https://github.com/user-attachments/assets/1756a5b7-48a4-484a-8656-54bade7c5bea" />
+<img width="960" height="540" alt="Screenshot 2025-08-13 222806" src="https://github.com/user-attachments/assets/bf892f55-3216-45eb-9bcb-b236c8548f87" />
+<img width="960" height="540" alt="Screenshot 2025-08-13 222813" src="https://github.com/user-attachments/assets/1eca1f0a-d975-4133-8ed2-135d2d99bccf" />
+<img width="577" height="412" alt="Screenshot 2025-08-13 222820" src="https://github.com/user-attachments/assets/aead30db-0b46-478b-82be-8d371009f8ba" />
+<img width="509" height="370" alt="Screenshot 2025-08-13 222824" src="https://github.com/user-attachments/assets/2e2e3683-78f4-4734-b740-829377d7e50c" />
+<img width="960" height="540" alt="Screenshot 2025-08-13 222830" src="https://github.com/user-attachments/assets/4f910827-dc85-4335-89e9-c85aa261c16b" />
+<img width="960" height="540" alt="Screenshot 2025-08-13 222846" src="https://github.com/user-attachments/assets/010487e7-41ad-466e-81b9-d6f1af3aa266" />
+<img width="960" height="540" alt="Screenshot 2025-08-13 222856" src="https://github.com/user-attachments/assets/c351e523-e1a5-4ca5-988a-7c6f7994477f" />
+<img width="655" height="502" alt="Screenshot 2025-08-13 222909" src="https://github.com/user-attachments/assets/7480d596-6f66-4306-b8c2-56a6e4e7dde7" />
+<img width="585" height="396" alt="Screenshot 2025-08-13 222913" src="https://github.com/user-attachments/assets/ee1ec72c-1031-4c9a-a3e3-0d07653b631a" />
 
 ### OVERVIEW VIDEO
 
