@@ -1,12 +1,12 @@
 # Helios Profile for Mosquito-FB-Mk.VI by MadKreator37
-[![CreateHelios16](https://github.com/HeliosProfiles/MadKreator37-Mosquito-FB-Mk.VI-Profile/actions/workflows/BuildProfilePackage.yml/badge.svg)](https://github.com/HeliosProfiles/MadKreator37-Mosquito-FB-Mk.VI-Profile/actions/workflows/BuildProfilePackage.yml)
+[![CreateHelios16](https://github.com/HeliosProfiles/DCS-Mosquito-FB-Mk.VI-Profile-by-MadKreator37/actions/workflows/BuildProfilePackage.yml/badge.svg)](https://github.com/HeliosProfiles/DCS-Mosquito-FB-Mk.VI-Profile-by-MadKreator37/actions/workflows/BuildProfilePackage.yml)
 
 ## Download the Profile helios16 package from [the __Assets__ section here](https://github.com/HeliosProfiles/DCS-Mosquito-FB-Mk.VI-Profile-by-MadKreator37/releases/latest)
 This is a Helios profile for [Eagle Dynamics' Mosquito for DCS](https://www.digitalcombatsimulator.com/en/products/planes/mosquito/) designed for DCS World and contributed by @MadKreator37 . 
 This profile utilises an updated set of JSON interfaces which have been contributed to was written into the Helios Virtual Cockpit project called **Helios**.  This can be downloaded from [Helios latest release](https://github.com/HeliosVirtualCockpit/Helios/releases/latest)
 
 ### IMPORTANT!
-You *MUST* be running Helios 1.6.615.0003 minimum. Please visit the link above to download the latest releases of both.
+You *MUST* be running Helios 1.6.6150.2 minimum. Please visit the link above to download the latest releases of both.
 
 ### ABOUT
 This profile was designed and created by MadKreator37. All parts were cut and modified from the 3D model of the Mossie cockpit... and maybe a little hint of some Spitfire parts in there.  
@@ -16,7 +16,7 @@ This profile was designed and created by MadKreator37. All parts were cut and mo
 
 ### Known Bugs and Issues
  
- 1: Pilot remote radio mode switch may not function correctly until the Helios 1.6.615.1+
+ 1: Pilot remote radio mode switch may not function correctly until the [Helios 1.6.615 Fix 1](https://github.com/HeliosVirtualCockpit/Helios/releases/tag/1.6.6151.1) or later.  
 
 
 ### IMAGES
