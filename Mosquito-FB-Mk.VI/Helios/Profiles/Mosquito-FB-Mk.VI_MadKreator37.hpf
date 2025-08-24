@@ -11367,11 +11367,6 @@ else return(false) end</LuaScript>
       <TriggerValue />
     </Binding>
     <Binding BypassCascadingTriggers="True">
-      <Trigger Source="Visual;Monitor 2.Keys button ;Helios.Base.PushButton;Keys button " Name="released" />
-      <Action Target="Interface;;Helios.Base.Keyboard;Keyboard" Name="send keys" />
-      <StaticValue>]</StaticValue>
-    </Binding>
-    <Binding BypassCascadingTriggers="True">
       <Trigger Source="Visual;Monitor 2.Keys button ;Helios.Base.PushButton;Keys button " Name="closed" />
       <Action Target="Visual;Monitor 2.F_Key Panel ACC;Helios.Panel;F_Key Panel ACC" Name="set.hidden" />
       <StaticValue>false</StaticValue>

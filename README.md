@@ -14,6 +14,12 @@ This profile was designed and created by MadKreator37. All parts were cut and mo
 
 *Special thanks to @BluefinBima for creating the Interface and his contributions and assistance with the project!
 
+### CHANGELOG
+
+1.0.1
+1. Adjusted color of airspeed needle.
+2. Removed accidental binding on "Keys" button that was sending cycle commands to the kneeboard.
+
 ### Known Bugs and Issues
  
  1: Pilot remote radio mode switch may not function correctly until the [Helios 1.6.615 Fix 1](https://github.com/HeliosVirtualCockpit/Helios/releases/tag/1.6.6151.1) or later.  
